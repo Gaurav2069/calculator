@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(231, 227, 227);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame{
+    height: 600px;
+    width: 460px;
+    background-color: white;
+    padding: 10px;
+    box-shadow:  8px 8px 16px #c7c7c7,
+             -8px -8px 16px #f9f9f9;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#display{
+    height: 90px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    box-shadow: inset 8px 8px 16px #c7c7c7,
+            inset -8px -8px 16px #f9f9f9;
+    font-size: 30px;
+    padding: 10px;
+    
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.buttons-group{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.button{
+    width: 85px;
+    height: 85px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #fafaf4;
+}
+
+.button:active{
+    box-shadow: inset 1px 1px 5px #babeec ,inset -1px -1px 2px #ffffff;
+}
+
+.button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#equal-to{
+    background-color: rgb(11, 11, 99);
+    color: white;
+}
+
+#equal-to:hover{
+    background-color: rgb(193, 36, 36);
+    color: white;
+    cursor: pointer;
+}
+
+#nine{
+    background-color: rgb(228, 6, 6);
+}
